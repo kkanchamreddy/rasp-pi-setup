@@ -20,3 +20,24 @@ Add `apt.adafruit.com` package repository to etc/apt/sources.list.  Once this pa
 
 ##Install git
 `sudo apt-get install git`
+
+
+##Some useful Commands
+###Display hardware info 
+`cat /proc/cpuinfo`
+
+`cat /proc/meminfo`
+
+`cat /proc/version`  Version of Pi
+
+`vcgencmd measure_temp` Temperature of Rasp
+
+`vcgencmd get_mem arm && vcgencmd get_mem gpu` Memory Split between CPU and GPU (it can be adjusted in Raspbian config)
+
+`sudo shutdown –h now`  Shut down now
+
+`sudo shutdown –r now` restart
+
+
+
+
